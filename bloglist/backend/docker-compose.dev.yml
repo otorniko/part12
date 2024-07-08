@@ -1,0 +1,14 @@
+services:
+  backend:
+   image: backend-dev
+   env_file:
+     - .env
+   build:
+     context: .
+     dockerfile: dev.Dockerfile
+   volumes:
+     - ./:/usr/src/app
+   ports:
+     - 3003:3003
+   container_name: backend-dev
+# docker compose -f docker-compose.dev.yml up --build

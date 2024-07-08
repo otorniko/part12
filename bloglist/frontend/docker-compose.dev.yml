@@ -1,0 +1,12 @@
+services:
+  app:
+    image: frontend-dev
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./frontend:/usr/src/app
+    ports:
+      - 3210:5173
+    container_name: frontend-dev
+# docker compose -f docker-compose.dev.yml up --build

@@ -1,0 +1,12 @@
+services:
+  backend:
+   image: backend-prod
+   env_file:
+     - .env
+   build:
+     context: .
+     dockerfile: Dockerfile
+   ports:
+     - 3003:3003
+   container_name: backend-prod
+# docker compose -f docker-compose.yml up --build

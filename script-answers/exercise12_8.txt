@@ -1,0 +1,87 @@
+Script started on 2024-06-22 19:22:30+03:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="155" LINES="47"]
+[0m[49m[39m[27m[24m[K
+[1A7[0m[49m[39m]133;A[0m[44m[38;5;254m [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/Coding/[1m[38;5;254m[44m[38;5;255mfullstackopen[0m[38;5;255m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[49m[34m[0m[34m[49m[39m [0m[49m[39m]133;B                                                                                                          ]133;P;k=r[0m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m at 19:22:30[0m[30m[47m[47m[30m[0m[30m[47m[47m[30m [0m[30m[47m[49m[39m]133;B[0m[49m[39m[27m[24m[32C[?2004h[?25l8[0m[49m[39m[27m[24m[J]2;otto@Kone:~/Coding/fullstackopen/part12]1;..ckopen/part12]7;file://Kone/home/otto/Coding/fullstackopen/part12\[0m[38;5;254m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                                                                                                          [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m]133;A[0m[44m[38;5;254m [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/Coding/[1m[38;5;254m[44m[38;5;255mfullstackopen[0m[38;5;255m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m on [30mmain [30m?3[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m [0m[49m[39m]133;B[K[94C]133;P;k=r[0m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m at 19:22:30[0m[30m[47m[47m[30m[0m[30m[47m[47m[30m [0m[30m[47m[49m[39m]133;B[110D[?1h=[?25h[?2004h[32md[39m[32md[39m[90mocker exec -it todo-backend-mongo-1 bash[39m[40D[33md[33mo[39m[39m[4md[39m[4mo[39m[4mc[24m[4mc[39m[4mk[24m[4mk[39m[4me[24m[24m[32md[24m[32mo[24m[32mc[24m[32mk[24m[32me[32mr[39m[39m [39me[39mx[39me[39mc[39m [39m-[39mi[39mt[39m [39mt[39mo[39md[39mo[39m-[39mb[39ma[39mc[39mk[39me[39mn[39md[39m-[39mm[39mo[39mn[39mg[39mo[39m-[39m1[39m [39mb[39ma[39ms[39mh[?1l>[?25l[?2004l[0m[27m[24m[J]133;A[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m ]133;B[32mdocker[39m exec -it todo-backend-mongo-1 bash[K[?25h
+]2;docker exec -it todo-backend-mongo-1 bash]1;docker]133;C;[?2004hroot@c54b87694c3e:/# mongosh mongodb://root:example@mongo:27017
+[?2004l]0;mongosh mongodb://<credentials>@mongo:27017/?directConnection=trueCurrent Mongosh Log ID:	6676fa634ef8574889a26a12
+Connecting to:		[1m[32mmongodb://<credentials>@mongo:27017/?directConnection=true&appName=mongosh+2.2.6[0m
+Using MongoDB:		7.0.11
+[1m[33mUsing Mongosh[0m:		2.2.6
+
+For mongosh info see: https://docs.mongodb.com/mongodb-shell/
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2024-06-22T12:31:27.438+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-06-22T12:31:27.769+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never' in this binary version
+   2024-06-22T12:31:27.770+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1G[0Jtest> [7Gd[36mdo[39m[1G[0Jtest> d[8G[1G[0Jtest> [7Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m         96.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   72.00 KiB
+[1G[0Jtest> [7Guse the [1G[0Jtest> use the[14G_databo[1G[0Jtest> use the_datab[20Gase
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collo[1G[0Jthe_database> show coll[24Gections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gu[1G[0Jthe_database> [15Gib[1G[0Jthe_database> i[16G[1G[0Jthe_database> [15Gdb.todos.find{([1G[0Jthe_database> db.todos.find{[29G[1G[0Jthe_database> db.todos.find[28G({})
+[
+  {
+    _id: ObjectId([32m'6676bdaa41f85f26d3a26a13'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6676bdaa41f85f26d3a26a14'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6676d5cf0d7f553419259068'[39m),
+    text: [32m'What do whales have to do with containers?'[39m,
+    done: [33mfalse[39m,
+    __v: [33m0[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.insertone({text[33mtext[39m: [32m"[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m [32mb[39m[32me[39m[32ml[39m[32mt[39m[32m"[39m, d[36mdo[39mdone: fals[33mfalse[39m})
+Uncaught [1m[31mTypeError[0m: db.todos.insertone is not a function
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertone({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[102G[1D[1G[0Jthe_database> db.todos.insertone[44m([49m{[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[101G[1D[1G[0Jthe_database> db.todos.insertone([44m{[49m[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[100G[1D[1G[0Jthe_database> db.todos.insertone({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[99G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.todos.insertone({[33mtext[39m: [44m[32m"[49mIncrease the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[86G[1D[1G[0Jthe_database> db.todos.insertone({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[85G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.todos.insertone({[33mtext[39m: [32m"Increase the number of tools in my tool belt[44m"[39m[49m, [33mdone[39m: [33mfalse[39m})[41G[1D[1G[0Jthe_database> db.todos.insertone({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[40G[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.todos.insertone({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m[44m}[49m)[34G[1D[1G[0Jthe_database> db.todos.insertone({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m}[44m)[49m[33G[1D[1G[0Jthe_database> db.todos.insertone({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[32G[1D[1D[1D[1C[1C[1G[0Jthe_database> db.todos.insertne({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[30G[1G[0Jthe_database> db.todos.insertAne({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[31G[1G[0Jthe_database> db.todos.insertne({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[30G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m"Increase the number of tools in my tool belt"[39m, [33mdone[39m: [33mfalse[39m})[31G[71C
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'6676fabe4ef8574889a26a13'[39m)
+}
+[1G[0Jthe_database> [15Gsh[1G[0Jthe_database> s[16G[1G[0Jthe_database> [15Gu[1G[0Jthe_database> [15Gib[1G[0Jthe_database> i[16G[1G[0Jthe_database> [15Gdb.todos.find({})
+[
+  {
+    _id: ObjectId([32m'6676bdaa41f85f26d3a26a13'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6676bdaa41f85f26d3a26a14'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6676d5cf0d7f553419259068'[39m),
+    text: [32m'What do whales have to do with containers?'[39m,
+    done: [33mfalse[39m,
+    __v: [33m0[39m
+  },
+  {
+    _id: ObjectId([32m'6676fabe4ef8574889a26a13'[39m),
+    text: [32m'Increase the number of tools in my tool belt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004hroot@c54b87694c3e:/# ei xit
+[?2004lexit
+[1m
+What's next?
+[0m  Try Docker Debug for seamless, persistent debugging tools in any container or image → [36mdocker debug todo-backend-mongo-1[0m
+  Learn more at https://docs.docker.com/go/debug-cli/
+[1m[7m%[27m[1m[0m                                                                                                                                                           ]2;otto@Kone:~/Coding/fullstackopen/part12]1;..ckopen/part12]7;file://Kone/home/otto/Coding/fullstackopen/part12\]133;D;0[0m[27m[24m[J[0m[49m[39m]133;A[0m[44m[38;5;254m [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/Coding/[1m[38;5;254m[44m[38;5;255mfullstackopen[0m[38;5;255m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m on [30mmain [30m?3[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m [0m[49m[39m]133;B[K[81C]133;P;k=r[0m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[33m[0m[33m[40m[43m[30m took 2m 21s[0m[30m[43m[43m[30m[0m[30m[43m[43m[30m [0m[30m[43m[43m[30m[37m[0m[37m[43m[47m[30m at 19:24:58[0m[30m[47m[47m[30m[0m[30m[47m[47m[30m [0m[30m[47m[49m[39m]133;B[110D[?1h=[?2004h[1m[31me[0m[39m[1m[31me[0m[39m[90mxit[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?1l>[?25l[?2004l[0m[27m[24m[J]133;A[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m ]133;B[32mexit[39m[K[?25h
+]2;exit]1;exit]133;C;
+Script done on 2024-06-22 19:25:04+03:00 [COMMAND_EXIT_CODE="0"]
